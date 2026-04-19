@@ -39,7 +39,7 @@ Multivariate Imputation by Chained Equations (MICE) was the imputation method us
 Data was split into training and test sets and the ideal ratio was found and implemented. Additionally, one-hot encoding was used to transform all categorical variables to numeric, and scaling was performed.
 
 ### Models
-Elastic Net Logistic Regression with Ridge (unsupervised), Elastic Net Logistic Regression with Lasso (supervised), and Random Forest will be the models used for this analysis. They will be trained on the cleaned, imputed, one-hot encoded, and scaled training dataset.
+Elastic Net Logistic Regression with Lasso (unsupervised for dimension reduction, also used as sueprvised), Elastic Net Logistic Regression with Ridge (supervised), and Random Forest will be the models used for this analysis. They will be trained on the cleaned, imputed, one-hot encoded, and scaled training dataset.
 
 ### Model Performance
 When testing model performance, the imputed test set will be used and metrics such as precision, recall, F1-Score, and ROC curves will be used to analyze results and model performance.
