@@ -65,9 +65,11 @@ Required Python Packages include:
 No custom functions have been created at this time.
 
 ## Steps to Run the Project
-* Download the 2024 BRFSS dataset and run the e_cigarette_data.Rmd script to create a CSV file.
-* Run the Cleaned_Data.ipynb script to clean data. Updated field names can be found in this script.
-* Run the Tables_and_Graphs_EDA.ipynb script to perform EDA and create statistical tables for categorical and continuous variables.
-* Run the Pre-Processing.ipynb script to perform pre-processing steps such as training and test set split, MICE imputation, one-hot encoding, and scaling.
-* Run Elastic Net script.
-* Run Random Forest script.
+* Files in the Scripts folder are numbered, representing the order in which they should be run.
+* Download the 2024 BRFSS dataset and run the 1_e_cigarette_data.Rmd script to create a CSV file.
+* Run the 2_Initial_Variable_Creation.ipynb script.
+* Run the 3_Data_Cleaning.ipynb script to clean data. Updated field names can be found in this script.
+* Run the 4_Tables_and_Graphs_EDA.ipynb script to perform EDA and create statistical tables for categorical and continuous variables.
+* Run the 5_Pre-Processing.ipynb script to perform pre-processing steps such as training and test set split, MICE imputation, one-hot encoding, and scaling.
+* Run the 6_Elastic_Net_Logistic_Regression_Lasso_Dimension_Reduction.ipynb
+* Run the Random Forest script.
