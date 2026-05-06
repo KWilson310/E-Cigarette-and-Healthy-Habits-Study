@@ -39,13 +39,13 @@ Multivariate Imputation by Chained Equations (MICE) was the imputation method us
 Data was split into training and test sets and the ideal ratio was found and implemented. Additionally, one-hot encoding was used to transform all categorical variables to numeric, and scaling was performed.
 
 ### Models
-Elastic Net Logistic Regression with Lasso (unsupervised for dimension reduction, also used as sueprvised), Elastic Net Logistic Regression with Ridge (supervised), and Random Forest will be the models used for this analysis. They will be trained on the cleaned, imputed, one-hot encoded, and scaled training dataset.
+Elastic Net Logistic Regression with Lasso (unsupervised for dimension reduction, also used as sueprvised), Elastic Net Logistic Regression with Ridge (supervised), and Random Forest are the models used for this analysis. They were trained on the cleaned, imputed, one-hot encoded, and scaled training dataset.
 
 ### Model Performance
-When testing model performance, the imputed test set will be used and metrics such as precision, recall, F1-Score, and ROC curves will be used to analyze results and model performance.
+When testing model performance, the imputed test set was be used. Metrics such as precision, recall, F1-score, and PR-AUC curves will be used to analyze results and model performance.
 
 ## Coding Languages and Required Packages
-R was used to write the original dataset to a CSV file. The remaining cleaning, pre-processing, and modeling was conducted in Python.
+Due to a SAS import limitation in Python, R was used to write the original dataset to a CSV file. The remaining cleaning, exploratory data analysis, pre-processing, and modeling was conducted in Python.
 
 Required R Packages include:
 * haven
@@ -76,3 +76,9 @@ No custom functions have been created at this time.
 * Run the 8_Random_Forest_Model.ipynb script to perform the baseline Random Forest model.
 * Run the 9_Elastic_Net_Logistic_Regression_Baseline_Lasso_Ridge_SMOTE.ipynb to perform the baseline Elastic Net model with SMOTE applied.
 * Run the 10_Random_Forest_Model_SMOTE.ipynb to perform the Random Forest model with SMOTE and hyperparameter tuning applied.
+
+## Team Member Contributions
+Each author contributed equally to the design, coding & development, analysis, and writing of this project. The contribution breakdown can be found below. Additionally, author names are included in each of the scripts, with some having multiple authors.
+* Elizabeth Greenan: CSV creation, EDA, Pre-Processing, Random Forest models
+* Nicholas Perry: Data Cleaning, EDA, Elastic Net Logistic Regression (Lasso and Ridge)
+* Kevin Wilson: EDA, Pre-Processing, feature selection analysis, correlation analysis, Cramer's V analysis
