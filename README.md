@@ -41,13 +41,13 @@ There are several predictor variables used for this analysis. They are categoriz
 Multivariate Imputation by Chained Equations (MICE) was the imputation method used.
 
 ### Pre-Processing & Feature Engineering
-Data was split into training and test sets and the ideal ratio was found and implemented. Additionally, one-hot encoding was used to transform all categorical variables to numeric, and scaling was performed.
+Data was split into training and test sets and the optimal ratio was found and implemented. Additionally, one-hot encoding was used to transform all categorical variables to numeric, and scaling was performed. Exploratory data analysis (EDA) tables can be found in the Reports folder.
 
 ### Models
-Elastic Net Logistic Regression with Lasso (unsupervised for dimension reduction, also used as sueprvised), Elastic Net Logistic Regression with Ridge (supervised), and Random Forest are the models used for this analysis. They were trained on the cleaned, imputed, one-hot encoded, and scaled training dataset.
+Elastic Net Logistic Regression with Lasso (unsupervised for dimension reduction, also used as supervised), Elastic Net Logistic Regression with Ridge (supervised), and Random Forest are the models used for this analysis. They were trained on the cleaned, imputed, one-hot encoded, and scaled training dataset.
 
 ### Model Performance
-When testing model performance, the imputed test set was be used. Metrics such as precision, recall, F1-score, and PR-AUC curves will be used to analyze results and model performance.
+When testing model performance, the imputed test set was used. Metrics such as precision, recall, F1-score, and PR-AUC curves will be used to analyze results and model performance.
 
 ## Coding Languages and Required Packages
 Due to a SAS import limitation in Python, R was used to write the original dataset to a CSV file. The remaining cleaning, exploratory data analysis, pre-processing, and modeling was conducted in Python.
@@ -86,4 +86,4 @@ No custom functions have been created at this time.
 Each author contributed equally to the design, coding & development, analysis, and writing of this project. The contribution breakdown can be found below. Additionally, author names are included in each of the scripts, with some having multiple authors.
 * Elizabeth Greenan: CSV creation, EDA, Pre-Processing, Random Forest models
 * Nicholas Perry: Data Cleaning, EDA, Elastic Net Logistic Regression (Lasso and Ridge)
-* Kevin Wilson: EDA, Pre-Processing, feature selection analysis, correlation analysis, Cramer's V analysis
+* Kevin Wilson: EDA, Pre-Processing, feature selection analysis, correlation analysis, Cramér's V analysis
