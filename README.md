@@ -24,6 +24,8 @@ The codebook from the CDC is located in the Documentation folder of the reposito
 
 The data was downloaded as a XPT (SAS Transport) file and imported into R using the haven package. Then, it was written as a .csv file.
 
+### Output Files
+
 At the end of the 3_Data_Cleaning.ipynb script, a cleaned_data.csv will be created. This file is too big to push to GitHub, so users will need to save it locally in order to run scripts 4-7.
 
 At the end of the 5_Pre-Processing.ipynb script, the following csv files will be created: x_train.csv, x_test.csv, y_train.csv, and y_test.csv. Similarly, these files are too big to push to GitHub, so users will need to save these locally. These files will be used to run scripts 8-10.
