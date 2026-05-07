@@ -11,7 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-The below code uses the haven library to read the XPT file.
+Due to a SAS import limitation in Python, R is being utilized to import the
+2024 BRFSS dataset. The following code uses the haven library to read the
+data, which is in XPT format.
 
 ```{r}
 
@@ -23,7 +25,9 @@ head(e_cig_data)
 
 ```
 
-The next chunk of code writes this as a CSV file. I included the row.names = False
+The next line of code writes this as a CSV file, so it can be read into Python
+for analysis. row.names = FALSE was included so an index column is not written
+to the CSV file.
 
 ```{r}
 
