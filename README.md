@@ -1,6 +1,12 @@
 # E-Cigarette and Healthy Habits Study
 Team Members: Elizabeth Greenan, Nicholas Perry, & Kevin Wilson
 
+## Team Member Contributions
+Each author contributed equally to the design, coding & development, analysis, and writing of this project. The contribution breakdown can be found below. Additionally, author names are included in each of the scripts, with some having multiple authors.
+* Elizabeth Greenan: CSV creation, EDA, Pre-Processing, Random Forest models
+* Nicholas Perry: Data Cleaning, EDA, Elastic Net Logistic Regression (Lasso and Ridge)
+* Kevin Wilson: EDA, Pre-Processing, feature selection analysis, correlation analysis, Cramér's V analysis
+
 ## Project Details
 
 ### Background
@@ -83,9 +89,3 @@ The pipeline custom function was used in the Elastic Net models.
 * Run the 8_Random_Forest_Model.ipynb script to perform the baseline Random Forest model.
 * Run the 9_Elastic_Net_Logistic_Regression_Baseline_Lasso_Ridge_SMOTE.ipynb to perform the baseline Elastic Net model with SMOTE applied.
 * Run the 10_Random_Forest_Model_SMOTE.ipynb to perform the Random Forest model with SMOTE and hyperparameter tuning applied.
-
-## Team Member Contributions
-Each author contributed equally to the design, coding & development, analysis, and writing of this project. The contribution breakdown can be found below. Additionally, author names are included in each of the scripts, with some having multiple authors.
-* Elizabeth Greenan: CSV creation, EDA, Pre-Processing, Random Forest models
-* Nicholas Perry: Data Cleaning, EDA, Elastic Net Logistic Regression (Lasso and Ridge)
-* Kevin Wilson: EDA, Pre-Processing, feature selection analysis, correlation analysis, Cramér's V analysis
