@@ -19,7 +19,7 @@ data, which is in XPT format.
 
 library(haven)
 
-e_cig_data <- read_xpt("data/LLCP2024.XPT ")
+e_cig_data <- read_xpt("data/LLCP2024.XPT")
 
 head(e_cig_data)
 
