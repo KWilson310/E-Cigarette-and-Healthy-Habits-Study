@@ -69,7 +69,7 @@ Required Python Packages include:
 * scikit-learn
 
 ## Custom Functions
-No custom functions have been created at this time.
+The pipeline custom function was used in the Elastic Net models.
 
 ## Steps to Run the Project
 * Files in the Scripts folder are numbered, representing the order in which they should be run.
