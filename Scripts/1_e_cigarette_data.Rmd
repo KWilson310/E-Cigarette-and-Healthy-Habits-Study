@@ -11,6 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
+Code written by Elizabeth and tested by Elizabeth and Nick
+
 Due to a SAS import limitation in Python, R is being utilized to import the
 2024 BRFSS dataset. The following code uses the haven library to read the
 data, which is in XPT format.
